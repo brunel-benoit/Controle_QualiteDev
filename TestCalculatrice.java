@@ -32,8 +32,10 @@ public class TestCalculatrice {
     }
 
     /** Methode TDD test avant methode minus donc erreur **/
+    @Test
     void testMinus(){
         assertEquals(6, calculatrice.minus(10, 4));
-        assertEquals(4, calculatrice.minus(4, 1));
+        assertEquals(3, calculatrice.minus(4, 1));
+
     }
 }
