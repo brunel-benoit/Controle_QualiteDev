@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
 public class TestCalculatrice {
 
+    Calculatrice calculatrice;
     @BeforeEach
     void setUp(){
         this.calculatrice = new Calculatrice();
@@ -13,8 +14,15 @@ public class TestCalculatrice {
 
     @Test
     void testadd(){
-        Calculatrice calculatrice = new Calculatrice() ;
         assertEquals(10, calculatrice.add(5, 5));
+        assertEquals(20, calculatrice.add(10, 10));
+    }
+
+    @Test
+    void testmult(){
+        assertEquals(10, calculatrice.mult(2, 5));
+        assertEquals(20, calculatrice.mult(2, 10));
+
     }
 
 }
