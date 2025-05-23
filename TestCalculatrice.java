@@ -25,4 +25,10 @@ public class TestCalculatrice {
 
     }
 
+    @Test
+    void testdiv(){
+        assertEquals(2, calculatrice.div(4, 2));
+        assertEquals(4, calculatrice.div(8, 2));
+    }
+    
 }
