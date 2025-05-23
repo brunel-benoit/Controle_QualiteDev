@@ -14,28 +14,28 @@ public class TestCalculatrice {
 
     @Test
     void testadd(){
-        assertEquals(10, calculatrice.add(5, 5));
-        assertEquals(20, calculatrice.add(10, 10));
+        assertEquals(10.0f, calculatrice.add(5.0f, 5.0f));
+        assertEquals(20.0f, calculatrice.add(10.0f, 10.0f));
     }
 
     @Test
     void testmult(){
-        assertEquals(10, calculatrice.mult(2, 5));
-        assertEquals(20, calculatrice.mult(2, 10));
+        assertEquals(10.0f, calculatrice.mult(2.0f, 5.0f));
+        assertEquals(20.0f, calculatrice.mult(2.0f, 10.0f));
 
     }
 
     @Test
     void testdiv(){
-        assertEquals(2, calculatrice.div(4, 2));
-        assertEquals(4, calculatrice.div(8, 2));
+        assertEquals(2.0f, calculatrice.div(4.0f, 2.0f));
+        assertEquals(4.0f, calculatrice.div(8.0f, 2.0f));
     }
 
     /** Methode TDD test avant methode minus donc erreur **/
     @Test
     void testMinus(){
-        assertEquals(6, calculatrice.minus(10, 4));
-        assertEquals(3, calculatrice.minus(4, 1));
+        assertEquals(6.0f, calculatrice.minus(10.0f, 4.0f));
+        assertEquals(3.0f, calculatrice.minus(4.0f, 1.0f));
 
     }
 }
