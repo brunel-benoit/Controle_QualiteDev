@@ -29,7 +29,9 @@ public class TestCalculatrice {
     void testdiv(){
         assertEquals(2.0f, calculatrice.div(4.0f, 2.0f));
         assertEquals(4.0f, calculatrice.div(8.0f, 2.0f));
+        assertThrows(ArithmeticException.class, () -> calculatrice.div(5,0));
     }
+
 
     /** Methode TDD test avant methode minus donc erreur **/
     @Test

@@ -1,0 +1,7 @@
+Ce tableau est la représentation des résultats des test de code pour la classe Calculatrice qui contient les méthodes
+add, div et mult.
+Pour la méthode mult nous pouvons voir dans la colonne missed Instructions qu'il y a 0% de couverture. Elle n'a donc pas
+été testée.
+
+Pour les méthodes div et add nous pouvons voir que 100% de leur instruction on été exécutées durant les test.
+Cependant pour la méthode div,
