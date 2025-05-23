@@ -1,0 +1,15 @@
+Ce tableau est la représentation des résultats des test de code pour la classe Calculatrice qui contient les méthodes
+add, div et mult.
+Pour la méthode mult nous pouvons voir dans la colonne missed Instructions qu'il y a 0% de couverture. Elle n'a donc pas
+été testée.
+
+Pour les méthodes div et add nous pouvons voir que 100% de leur instruction on été exécutées durant les test.
+Cependant pour la méthode div, il y a surement une condition testant la division par 0 qui est representé par une
+branche pas testé.
+
+Nous voyont que toutes les branches qui verifie les conditions if else par exemple, sont testée.
+
+En fin nous pouvons voir que 20 instruction sur 24 ce qui represente 83% ont été exécuter.
+
+Afin d'améliorer les tests, il faut faire au moins un test pour chaque méthode de la classe et tester toutes les
+conditions pour chaque méthodes.
